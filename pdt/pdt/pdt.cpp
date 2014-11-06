@@ -4,11 +4,13 @@
 //#include "stdafx.h"
 
 #include "OpencvDetetion.h"
+#include "Opencvtracking.h"
 
 
 int main(int argc, char** argv)
 {
-	OpencvDetetion obj;
+	//OpencvDetetion obj;
+	Opencvtracking obj;
 	obj.test();
 	return 0;
 }
