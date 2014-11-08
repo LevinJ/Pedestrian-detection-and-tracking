@@ -20,7 +20,10 @@ void OpencvDetetion::test(){
 	FILE* f = 0;
 	char _filename[1024];
 
-	string filepath = "../images/p2.png";
+	//string filepath = "../images/p2.png";
+	//string filepath = "D:/baiducloud/tech/temp/INRIAPerson/Test/pos/crop_000004.png";
+	//string filepath = "D:/baiducloud/tech/temp/INRIAPerson/70X134H96/Test/pos/crop_000001a.png";
+	string filepath = "D:/baiducloud/tech/temp/INRIAPerson/70X134H96/Test/pos/crop001607b.png";
 	img = imread(filepath);
 
 	if (img.data)

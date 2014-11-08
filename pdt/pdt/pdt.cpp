@@ -9,8 +9,8 @@
 
 int main(int argc, char** argv)
 {
-	//OpencvDetetion obj;
-	Opencvtracking obj;
+	OpencvDetetion obj;
+	//Opencvtracking obj;
 	obj.test();
 	return 0;
 }
