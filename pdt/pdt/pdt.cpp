@@ -5,12 +5,14 @@
 
 #include "OpencvDetetion.h"
 #include "Opencvtracking.h"
+#include "OpencvDPMdetection.h"
 
 
 int main(int argc, char** argv)
 {
 	OpencvDetetion obj;
 	//Opencvtracking obj;
+	//OpencvDPMdetection obj;
 	obj.test();
 	return 0;
 }
