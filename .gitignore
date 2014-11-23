@@ -23,3 +23,8 @@ bld/
 *.vcxproj.*
 /*hidden.xml
 *USERSWO-*Administrator*.cpp
+
+*.out.txt
+*.config.ini~
+*.cmake~
+.gitignore~
